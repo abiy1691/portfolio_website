@@ -1,5 +1,5 @@
 "use client"
-
+import rentalImage2 from '../assets/cvcv.jpg'
 import { motion } from "framer-motion"
 import { useInView } from "framer-motion"
 import { useRef } from "react"
@@ -33,7 +33,7 @@ const About = () => {
             <div className="relative w-80 h-80 mx-auto">
               <div className="absolute inset-0 bg-gradient-to-r from-purple-600 to-blue-600 rounded-full animate-pulse"></div>
               <img
-                src="src/assets/cvcv.jpg"
+                src={rentalImage2}
                 alt="Abiy Girma Profile"
                 className="relative z-10 w-72 h-72 rounded-full object-cover border-4 border-white shadow-xl mx-auto mt-4 ml-4 hover:scale-105 transition-transform duration-300"
                 onError={(e) => {
