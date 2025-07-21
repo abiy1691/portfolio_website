@@ -9,6 +9,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
+    "postbuild": "type nul > dist\\.nojekyll",
     "deploy": "npm run build && gh-pages -d dist"
   },
   "dependencies": {
