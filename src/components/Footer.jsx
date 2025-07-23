@@ -93,7 +93,7 @@ const Footer = () => {
               <a href="tel:+251928994480" className="block hover:text-white transition-colors duration-200">
                 +251928994480
               </a>
-              <p>Addis AbabaEthiopia</p>
+              <p>Addis Ababa, Ethiopia</p>
             </div>
           </div>
         </div>
