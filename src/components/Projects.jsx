@@ -5,21 +5,21 @@ import { useInView } from "framer-motion"
 import { useRef, useState } from "react"
 import { ExternalLink, Github, Eye, X, ChevronLeft, ChevronRight, Upload } from "lucide-react"
 
-import house1 from '../assets/house 2.jpg'
-import house2 from '../assets/house 3.jpg'
-import house3 from '../assets/home 6.jpg'
-import house4 from '../assets/home 7.jpg'
-import health1 from '../assets/health 1.png'
-import health2 from '../assets/health 2.png'
-import health3 from '../assets/health 3.png'
-import health4 from '../assets/health 4.png'
-import health5 from '../assets/health 5.png'
-import health6 from '../assets/health 6.png'
-import swimming1 from '../assets/swimming 1.png'
-import swimming2 from '../assets/swimming 2.png'
-import swimming3 from '../assets/swimming 3.png'
-import swimming4 from '../assets/swimming 4.png'
-import swimming5 from '../assets/swimming 5.png'
+import house1 from '../assets/house_2.jpg'
+import house2 from '../assets/house_3.jpg'
+import house3 from '../assets/home_6.jpg'
+import house4 from '../assets/home_7.jpg'
+import health1 from '../assets/health_1.png'
+import health2 from '../assets/health_2.png'
+import health3 from '../assets/health_3.png'
+import health4 from '../assets/health_4.png'
+import health5 from '../assets/health_5.png'
+import health6 from '../assets/health_6.png'
+import swimming1 from '../assets/swimming_1.png'
+import swimming2 from '../assets/swimming_2.png'
+import swimming3 from '../assets/swimming_3.png'
+import swimming4 from '../assets/swimming_4.png'
+import swimming5 from '../assets/swimming_5.png'
 
 
 // Import your images here - you can drag and drop them into src/assets/ folder
