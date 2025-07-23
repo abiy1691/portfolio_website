@@ -46,7 +46,7 @@ const Footer = () => {
                 <Mail size={20} />
               </a>
               <a
-                href="https://t.me/abiy1691"
+                href="https://t.me/scripted0"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-slate-400 hover:text-blue-500 transition-colors duration-200"
@@ -56,7 +56,7 @@ const Footer = () => {
                 </svg>
               </a>
               <a
-                href="https://www.upwork.com/freelancers/abiy1691"
+                href="https://www.upwork.com/freelancers/~01707fecc7a9c48fed?mp_source=share"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-slate-400 hover:text-green-500 transition-colors duration-200"
@@ -93,7 +93,7 @@ const Footer = () => {
               <a href="tel:+251928994480" className="block hover:text-white transition-colors duration-200">
                 +251928994480
               </a>
-              <p>Ethiopia</p>
+              <p>Addis AbabaEthiopia</p>
             </div>
           </div>
         </div>

@@ -4,9 +4,24 @@ import { motion, AnimatePresence } from "framer-motion"
 import { useInView } from "framer-motion"
 import { useRef, useState } from "react"
 import { ExternalLink, Github, Eye, X, ChevronLeft, ChevronRight, Upload } from "lucide-react"
-import rentalImage1 from '../assets/cvcv.jpg'
-import rentalImage2 from '../assets/cvcv.jpg'
-import myprofile from '../assets/Screenshot1.png'
+
+import house1 from '../assets/house 2.jpg'
+import house2 from '../assets/house 3.jpg'
+import house3 from '../assets/home 6.jpg'
+import house4 from '../assets/home 7.jpg'
+import health1 from '../assets/health 1.png'
+import health2 from '../assets/health 2.png'
+import health3 from '../assets/health 3.png'
+import health4 from '../assets/health 4.png'
+import health5 from '../assets/health 5.png'
+import health6 from '../assets/health 6.png'
+import swimming1 from '../assets/swimming 1.png'
+import swimming2 from '../assets/swimming 2.png'
+import swimming3 from '../assets/swimming 3.png'
+import swimming4 from '../assets/swimming 4.png'
+import swimming5 from '../assets/swimming 5.png'
+
+
 // Import your images here - you can drag and drop them into src/assets/ folder
 // Then import them like this:
 // import rentalImage1 from '../assets/rental-1.jpg'
@@ -30,8 +45,10 @@ const Projects = () => {
         // Replace these placeholder paths with your actual imported images
         // Example: rentalImage1, rentalImage2, rentalImage3
       
-        rentalImage1,
-        rentalImage2,
+        house1,
+        house2,
+        house3,
+        house4,
       ],
       technologies: ["React", "Node.js", "MongoDB", "Express.js", "Tailwind CSS", "Vite"],
       githubUrl: "https://github.com/abiy1691/residential-house-rental-management-project-",
@@ -39,17 +56,20 @@ const Projects = () => {
       featured: true,
     },
     {
-      title: "Health Insurance System Website",
+      title: "Health Insurance company system",
       description:
-        "A comprehensive health insurance management system designed to streamline insurance processes for both providers and patients. The platform features patient registration and profile management, insurance plan comparison and enrollment, claims processing and tracking, provider network directory, appointment scheduling, medical history management, and real-time claim status updates. The system includes secure document upload, automated eligibility verification, premium calculation, and detailed analytics for insurance providers.",
+        "A comprehensive health insurance management system designed to streamline insurance processes for both providers and customers. The platform features patient registration and profile management, insurance plan comparison and enrollment, claims processing and payment tracking, provider network directory, appointment scheduling, , and real-time claim status updates. The system includes secure document upload, automated eligibility verification, premium calculation, and detailed analytics for insurance providers.",
       images: [
         // 🎯 DRAG AND DROP YOUR IMAGES HERE:
-        "/placeholder.svg?height=300&width=400&text=Health+Image+1",
-        "/placeholder.svg?height=300&width=400&text=Health+Image+2",
-        "/placeholder.svg?height=300&width=400&text=Health+Image+3",
-      ],
-      technologies: ["Next.js", "TypeScript", "Prisma", "PostgreSQL", "Socket.io"],
-      githubUrl: "https://github.com/abiy1691/health-insurance-system",
+       health1,
+       health2,
+       health3,
+       health4,
+       health5,
+       health6,
+      ],  
+      technologies: ["Html", "jypeScript", "CSS3", "MYSQL", "My php admin", "php", "XAMPP", "SB admin2 bootstrap"],
+      githubUrl: "https://github.com/abiy1691/health-insurance-company-system",
       liveUrl: "https://your-health-insurance.com",
       featured: true,
     },
@@ -59,11 +79,14 @@ const Projects = () => {
         "A professional website for swimming pool contractors featuring project showcases, service offerings, and client testimonials. The site includes an interactive project gallery, service request forms, cost estimation tools, maintenance scheduling, before/after project comparisons, and a comprehensive portfolio of completed installations. Features responsive design, contact forms, quote requests, and integration with social media platforms for showcasing recent work.",
       images: [
         // 🎯 DRAG AND DROP YOUR IMAGES HERE:
-       myprofile,
-       myprofile,
+       swimming1,
+       swimming2,
+       swimming3,
+       swimming4,
+       swimming5,
       ],
-      technologies: ["React", "Chart.js", "CSS3", "JavaScript"],
-      githubUrl: "https://github.com/abiy1691/swimming-pool-contractor",
+      technologies: ["React", "vite", "Tailwind CSS"],
+      githubUrl: "https://github.com/abiy1691/swimming-pool-contractor-website",
       liveUrl: "https://your-pool-contractor.com",
       featured: false,
     },

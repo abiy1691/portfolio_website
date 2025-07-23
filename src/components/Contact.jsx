@@ -44,7 +44,7 @@ const Contact = () => {
     {
       icon: MapPin,
       title: "Location",
-      value: "Ethiopia",
+      value: "Addis Ababa, Ethiopia",
       link: "#",
     },
   ]
@@ -127,7 +127,7 @@ const Contact = () => {
                   <Linkedin size={24} />
                 </motion.a>
                 <motion.a
-                  href="https://t.me/abiy1691"
+                  href="https://t.me/scripted0"
                   target="_blank"
                   rel="noopener noreferrer"
                   initial={{ opacity: 0, scale: 0 }}
@@ -140,7 +140,7 @@ const Contact = () => {
                   </svg>
                 </motion.a>
                 <motion.a
-                  href="https://www.upwork.com/freelancers/abiy1691"
+                  href="https://www.upwork.com/freelancers/~01707fecc7a9c48fed?mp_source=share"
                   target="_blank"
                   rel="noopener noreferrer"
                   initial={{ opacity: 0, scale: 0 }}
